@@ -1,18 +1,22 @@
 {
   "name": "cdk-cicd",
   "version": "0.1.0",
+
+
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"
   },
+
   "devDependencies": {
-    "@types/jest": "^30",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
     "@types/node": "^24.10.1",
+    "aws-cdk": "2.1120.0",
     "jest": "^30",
     "ts-jest": "^29",
-    "aws-cdk": "2.1120.0",
     "ts-node": "^10.9.2",
     "typescript": "~5.9.3"
   },
