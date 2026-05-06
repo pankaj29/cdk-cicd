@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+// #!/usr/bin/env node
+// Added a comment
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import { CdkCicdStack } from '../lib/cdk-cicd-stack';
